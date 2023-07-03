@@ -53,9 +53,7 @@ table {
 
 
 
-
-
-/* ---------- This is the beginning of my SSB Contact Web Page Project ------------ */
+/* Beginning of the site's CSS syling */
 
 html, body {
   height: 100%;
@@ -92,12 +90,24 @@ h1 {
 
 h2 {
 	font-family: 'Lato', sans-serif;
+	font-size: 2.2em;
+    line-height: 1.4;
+	text-decoration:underline;
+    color: #000000;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
 	font-size: 1.7em;
     line-height: 1.4;
     color: #000000;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	
 }
+	
 
 p {
 	font-family: 'Lato', sans-serif;
@@ -114,6 +124,7 @@ body{
 	background-size: contain;
 	text-align: center;
 	font-size:1em;
+	height:max-content;
 }
     
 nav{
@@ -141,12 +152,16 @@ nav a{
 }
 
 a{
-	color:#660088
-	font-size: 1.2em;
+	color:#ffffff;
+	font-size: 1.3em;
+	background-color:#bf00ff;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-radius: 10px;
 }
 
 a:hover{
-	color:#bf00ff
+	background-color:#660088;
 }
 
 nav a:hover{
@@ -162,4 +177,77 @@ nav a:hover{
 		font-size: 1em;
 	}
 }
+
+/* Code for cards */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .cardphoto img {
+    display: block;
+    max-width: 100%; /* makes image responsive if needed but makes sure it doesn't stretch */
+  }
+ 
+  /* make the Section class cards here.  */
+ 
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+ 
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .card {
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(139, 0, 178);
+    box-shadow: 0 0 3px 5px rgba(117, 0, 153, 0.138);
+    position: relative;
+    top: 0;
+  }
+  .card:hover {
+    transition: all 0.1s ease-in;
+    top: -3px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .cardphoto {
+    max-height: 250px;
+    overflow: hidden;
+  }
+ 
+  .cardarticle {
+    padding: 2.5rem;
+    flex-grow: 1;
+  }
+ 
+  /* typography */
+  .cardH1 {
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
+ 
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  h3{
+      color:#000000;
+  }
+ 
+  .card p {
+      color: rgb(0, 0, 0);
+  }
 
