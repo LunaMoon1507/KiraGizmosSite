@@ -3,6 +3,9 @@
 
 <head>
     <meta charset=”UTF-8”>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1" />
+    <meta name="description"
+        content="Come visit KiraGizmos, a home 3D-printing business selling fun gadgets, gizmos, models, trinkets, and toys for all!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -10,30 +13,99 @@
     <link rel="stylesheet" type="text/css" href="styles-contact.css">
 </head>
 
-<div>
-    <nav>
-        <ul>
-            <li><a href="#" target="_blank">Home</a></li>
-            <li><a href="#" target="_blank">About Me</a></li>
-            <li><a href="#" target="_blank">Products</a></li>
-            <li><a href="mailto:kiragizmos@gmail.com">Email me</a></li>
-            <li><a href="https://www.etsy.com/shop/kiragizmos" target="_blank">Order now!</a></li>
-        </ul>
-    </nav>
-    <br>
-</div>
 
 <body>
-    <div class="center">
+    <div> <!--Header navigation ("About" and "Products" pages do not exist)-->
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank">🏠 Home</a></li>
+                <li><a href="#" target="_blank">👩 About Me</a></li>
+                <li><a href="#" target="_blank">📦 Products</a></li>
+                <li><a href="mailto:kiragizmos@gmail.com">📧 Email me</a></li>
+                <li><a href="https://www.etsy.com/shop/kiragizmos" target="_blank">🔥 Order now!</a></li>
+            </ul>
+        </nav>
+        <br>
+    </div>
+
+    <div class="center"> <!--Beginning of body text/content-->
         <img id="logo" src="images/KiraGizmos-logo.png" alt="KiraGizmos Logo" width="250">
         <h1>Welcome to KiraGizmos!</h1>
         <br>
-        <h2>
-            From animals to cooking gadgets to fidget toys and video game items, I home-3D print a variety of fun, handy, and cute gadgets and gizmos for all! Check out my products and learn more about me here, or head to my Etsy shop to order now!
-        </h2>
-        <a href="https://www.etsy.com/shop/kiragizmos" target="_blank">KiraGizmos Etsy shop</a>
+        <h3>
+            From animals to cooking gadgets to fidget toys and video game items, I home-3D print a variety of fun,
+            handy, and cute gadgets and gizmos for all! Check out my products and learn more about me here, or head to
+            my Etsy shop to order now!
+        </h3>
+        <br>
+        <a href="https://www.etsy.com/shop/kiragizmos" target="_blank">KiraGizmos Etsy shop ↗️</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Featured Products:</h2>
     </div>
+
+    <!--Div for all homepage product cards-->
+    <div class="cards">
+        <!--Each of these divs is for one card-->
+        <div class="card">
+            <div class="cardphoto">
+                <img src="images/All animals copy.png" alt="Articulated animals image" />
+            </div>
+            <article class="cardarticle">
+                <h3 class="cardH1">Cute Articulated Animals</h3>
+                <br>
+                <p>These little creatures can be desk decorations, toys, or gifts! I have the shark (articulated body,
+                    fins, and tail), snake (almost 2ft long, articulated body), gecko (head, limbs, body, and tail are
+                    articulated), and octopus (floppy articulated tentacles).</p>
+            </article>
+        </div><!--End of first card -->
+
+        <div class="card">
+            <div class="cardphoto">
+                <img src="images/Baker cube copy.png" alt="Bakercube image" />
+            </div>
+            <article class="cardarticle">
+                <h3 class="cardH1">Bakercube Measuring Cup</h3>
+                <br>
+                <p>The Bakercube is the best measuring cup- with 1/2 cup, 1/3 cup, 1/4, cup, 1 tablespoon, and more, you
+                    can have all of your baking and cooking needs fulfilled! Colors are black, white, and a beautiful
+                    metallic multicolor filament.</p>
+            </article>
+        </div>
+
+        <div class="card">
+            <div class="cardphoto">
+                <img src="images/Maker Pen copy.png" alt="Maker Pen image" />
+            </div> <!-- end of photo -->
+            <article class="cardarticle">
+                <h3 class="cardH1">Rec Room Maker Pen model</h3>
+                <br>
+                <p>A Maker Pen from the videogame Rec Room, for the VR/game lovers that want to bring a piece of the
+                    game into real life! This Maker Pen model can be used as a desk prop, decoration, toy, and/or momento
+                    to take into the physical world.</p>
+            </article>
+        </div>
+        <br>
+
+        <div> <!--Footer navigation (not currently functional)-->
+            <br>
+            <nav>
+                <ul>
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">About Me</a></li>
+                    <li><a href="#" target="_blank">Products</a></li>
+                    <li><a href="mailto:kiragizmos@gmail.com">Email me</a></li>
+                    <li><a href="https://www.etsy.com/shop/kiragizmos" target="_blank">Order now!</a></li>
+                </ul>
+            </nav>
+        </div>
 </body>
 
 
 </html>
+
+<!--"About" and "Products" pages should link somewhere, product cards on homepage should link to Product page, and a footer should be added to navigate from the bottom-->
